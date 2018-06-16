@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (C) 2010 ZXing authors
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<resources>
+
+    <string name="app_name">BooksApp</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="button_add_calendar">Add to calendar</string>
+    <string name="button_add_contact">Add contact</string>
+    <string name="button_back">Back</string>
+    <string name="button_book_search">Book Search</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_clipboard_empty">Clipboard empty</string>
+    <string name="button_custom_product_search">Custom search</string>
+    <string name="button_dial">Dial number</string>
+    <string name="button_done">Done</string>
+    <string name="button_email">Send email</string>
+    <string name="button_get_directions">Get directions</string>
+    <string name="button_google_shopper">Google Shopper</string>
+    <string name="button_mms">Send MMS</string>
+    <string name="button_ok">OK</string>
+    <string name="button_open_browser">Open browser</string>
+    <string name="button_product_search">Product Search</string>
+    <string name="button_search_book_contents">Search contents</string>
+    <string name="button_share_app">Application</string>
+    <string name="button_share_bookmark">Bookmark</string>
+    <string name="button_share_by_email">Share via email</string>
+    <string name="button_share_by_sms">Share via SMS</string>
+    <string name="button_share_clipboard">Clipboard</string>
+    <string name="button_share_contact">Contact</string>
+    <string name="button_show_map">Show map</string>
+    <string name="button_sms">Send SMS</string>
+    <string name="button_web_search">Web search</string>
+    <string name="button_wifi">Connect to Network</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="contents_text">Plain text</string>
+    <string name="history_clear_text">Clear history</string>
+    <string name="history_email_title">Barcode Scanner history</string>
+    <string name="history_send">Send history</string>
+    <string name="history_title">History</string>
+    <string name="menu_about">About</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_history">History</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="msg_about">The official Android app of the open source ZXing barcode project.</string>
+    <string name="msg_buggy">This device has known bugs that cause barcode scanning problems. For more information, visit http://code.google.com/p/zxing/wiki/FrequentlyAskedQuestions</string>
+    <string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_mms_subject">Hi</string>
+    <string name="msg_default_status">Place the barcode inside the viewfinder rectangle to scan.</string>
+    <string name="msg_default_time">Time</string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
+    <string name="msg_google_shopper_missing">Google Shopper is not installed</string>
+    <string name="msg_install_google_shopper">Google Shopper combines barcode scanning with online and local prices, reviews and more without opening the browser. Would you like to try it?</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+    <string name="msg_not_our_results">You are leaving this application. The search results you will see are not related to this application.</string>
+    <string name="msg_redirect">Redirect</string>
+    <string name="msg_sbc_book_not_searchable">Sorry, this book is not searchable.</string>
+    <string name="msg_sbc_failed">Sorry, the search encountered a problem.</string>
+    <string name="msg_sbc_no_page_returned">No page returned</string>
+    <string name="msg_sbc_page">Page</string>
+    <string name="msg_sbc_searching_book">Searching book\u2026</string>
+    <string name="msg_sbc_snippet_unavailable">Snippet not available</string>
+    <string name="msg_sbc_unknown_page">Unknown page</string>
+    <string name="msg_share_explanation">You can share data by displaying a barcode on your screen and scanning it with another phone.</string>
+    <string name="msg_share_subject_line">Here are the contents of a barcode I scanned</string>
+    <string name="msg_share_text">Or type some text and press Enter</string>
+    <string name="msg_unmount_usb">Sorry, the SD card is not accessible.</string>
+    <string name="preferences_actions_title">When a barcode is found\u2026</string>
+    <string name="preferences_bulk_mode_summary">Scan and save many barcodes continuously</string>
+    <string name="preferences_bulk_mode_title">Bulk scan mode</string>
+    <string name="preferences_copy_to_clipboard_title">Copy to clipboard</string>
+    <string formatted="false" name="preferences_custom_product_search_summary">Use %s as a placeholder for the product ID, and %f for format</string>
+    <string name="preferences_custom_product_search_title">Custom search URL</string>
+    <string name="preferences_decode_1D_title">1D barcodes</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_front_light_summary">Improves scanning in low light on some phones, but may cause glare. Does not work on all phones.</string>
+    <string name="preferences_front_light_title">Use front light</string>
+    <string name="preferences_general_title">General settings</string>
+    <string name="preferences_name">Settings</string>
+    <string name="preferences_play_beep_title">Beep</string>
+    <string name="preferences_remember_duplicates_summary">Store multiple scans of the same barcode in History</string>
+    <string name="preferences_remember_duplicates_title">Remember duplicates</string>
+    <string name="preferences_reverse_image_summary">Enable on devices with a front camera only</string>
+    <string name="preferences_reverse_image_title">Reversed camera image</string>
+    <string name="preferences_result_title">Result settings</string>
+    <string name="preferences_scanning_title">When scanning for barcodes, decode\u2026</string>
+    <string name="preferences_supplemental_summary">Try to retrieve more information about the barcode contents</string>
+    <string name="preferences_supplemental_title">Retrieve more info</string>
+    <string name="preferences_vibrate_title">Vibrate</string>
+    <string name="result_address_book">Found contact info</string>
+    <string name="result_calendar">Found calendar event</string>
+    <string name="result_email_address">Found email address</string>
+    <string name="result_geo">Found geographic coordinates</string>
+    <string name="result_isbn">Found book</string>
+    <string name="result_product">Found product</string>
+    <string name="result_sms">Found SMS address</string>
+    <string name="result_tel">Found phone number</string>
+    <string name="result_text">Found plain text</string>
+    <string name="result_uri">Found URL</string>
+    <string name="result_wifi">Found WLAN Configuration</string>
+    <string name="sbc_name">Google Book Search</string>
+    <string name="share_name">Share via barcode</string>
+    <string name="title_about">Barcode Scanner v</string>
+    <string name="wifi_changing_network">Changing Network</string>
+    <string name="wifi_connected">Connected</string>
+    <string name="wifi_creating_network">Creating Network</string>
+    <string name="wifi_modifying_network">Modifying Network</string>
+    <string name="wifi_ssid_missing">Network name missing</string>
+    <string name="wifi_type_incorrect">Network type incorrect</string>
+    <string name="wifi_connect_failed">Network connection failed</string>
+    <string name="wifi_ssid_label">Network Name</string>
+    <string name="wifi_type_label">Type</string>
+    <string name="zxing_url">http://code.google.com/p/zxing</string>
+
+    <string name="Str_Username">User Name: </string>
+    <string name="Str_Password">Password: </string>
+    <string name="Terms_Of_Use">Terms of Use</string>
+    <string name="Menu_About">About</string>
+    <string name="Bartizan_Connects_LLC">Bartizan Connects, LLC</string>
+    <string name="Version_10_Build_09302010">Version: 1.0   Build: 09302010</string>
+    <string name="Play_iLeadXchange_Video">Play iLeadXchange Video</string>
+    <string name="Demo_Amp_Instructions">Demo &amp; Instructions</string>
+    <string name="Master_Account_Information">Master Account Information:</string>
+
+
+    <string name="Scan_History">Scan History</string>
+    <string name="iCalendar">iCalendar</string>
+    <string name="Maps">Maps</string>
+    <string name="BookMarks">BookMarks</string>
+    <string name="Group">Group</string>
+    <string name="Settings">Settings</string>
+    <string name="StartUp">Start</string>
+    <string name="Key">Key</string>
+    <string name="viewDetails">ViewDetails</string>
+    <string name="VCard">VCard</string>
+    <string name="create_a_profile">Create A Profile</string>
+    <string name="why_to_create">Why To Create</string>
+    <string name="continue_without_creating_profile">Continue Without Creating Profile</string>
+    <string name="set_as_default">Set As Default</string>
+    <string name="edit">Edit</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="_">:</string>
+    <string name="submit">Submit</string>
+    <string name="textview">TextView</string>
+    <string name="group_details">Group Details</string>
+    <string name="calendar">Calendar</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="get_qr_code">Get QR Code</string>
+    <string name="title_name">Title Name</string>
+    <string name="sub_details">Sub Details</string>
+    <string name="add_new_profile">Add New Profile</string>
+    <string name="map_detail">Map Detail</string>
+    <string name="latitude">Latitude</string>
+    <string name="status">Status</string>
+    <string name="manage_profile">Manage Profile</string>
+    <string name="add_profile">Add Profile</string>
+    <string name="profile_name">Profile Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="company_name">Company Name</string>
+    <string name="title">Title</string>
+    <string name="address1">Address1</string>
+    <string name="address2">Address2</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="phone">Phone</string>
+    <string name="mobile">Mobile</string>
+    <string name="fax_no_">Fax No.</string>
+    <string name="linkedin_profile">LinkedIn Profile</string>
+    <string name="notes">Notes</string>
+    <string name="home_page">Home Page</string>
+    <string name="save">Save</string>
+    <string name="discard_changes">Discard Changes</string>
+    <string name="delete_profile">Delete Profile</string>
+    <string name="user_image">User Image</string>
+    <string name="longitude">Longitude</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="password_did_not_match">Password did not Match</string>
+    <string name="first_four_data_are_compulsory">First four Data are compulsory</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="delete_this_profile_">Delete this Profile ?</string>
+    <string name="profile_delete_">Profile Delete.</string>
+    <string name="getscan">GetScan</string>
+    <string name="history">Scan History</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="please_enter_latitude_and_longitude_properly_">Please Enter Latitude and Longitude Properly.</string>
+    <string name="what_kind_of_profile_">What kind of Profile ?</string>
+    <string name="memory1">MEMORY1</string>
+    <string name="delfault_card_format_">Delfault Card Format :</string>
+    <string name="no_scanned_history_">No Scanned History.</string>
+    <string name="record_saved_">Record Saved!</string>
+    <string name="this_is_default_profile">This is Default Profile</string>
+    <string name="barcode_image">Barcode Image</string>
+    <string name="image_icon">Image Icon</string>
+    <string name="profile_vcard_qrcode_">Profile_vCard_QRCode_</string>
+    <string name="profile_mecard_qrcode_">Profile_MeCard_QRCode_</string>
+    <string name="com_google_zxing_client_android_scan_result">com.google.zxing.client.android.SCAN_RESULT</string>
+    <string name="county">County</string>
+    <string name="country">Country</string>
+    <string name="mecard">MECARD</string>
+    <string name="vcard">VCARD</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="fellow_attendees">Fellow Attendees</string>
+    <string name="exhibitors">Exhibitors</string>
+    <string name="cancel">Cancel</string>
+    <string name="visit_a_href_http_www_booksupp_com_uk_booksupp_com_a_for_more_info_">Visit Booksupp.com for more info. </string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome to BooksApp</string>
+    <string name="slide_1_desc">Scan the barcode of a BooksApp book.</string>
+
+    <string name="slide_2_title">Youtube</string>
+    <string name="slide_2_desc">Watch a trailer or the author telling you a little more about the book.</string>
+
+    <string name="slide_3_title">History</string>
+    <string name="slide_3_desc">View all your scan history here.</string>
+
+    <string name="slide_4_title">History</string>
+    <string name="slide_4_desc">View all your scan history here.</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">History</string>
+    <string name="nav_item_friends">Scan</string>
+    <string name="nav_item_notifications">Help</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <!--<item>@string/nav_item_friends</item>-->
+        <item>@string/nav_item_notifications</item>
+    </string-array>
+
+    <string name="title_messages">Help</string>
+    <!--<string name="title_friends">Scan</string>-->
+    <string name="title_home">History</string>
+    <string name="splashscreeen">SplashScreen</string>
+</resources>
