@@ -86,7 +86,6 @@ public class HistoryFragment extends Fragment {
         rowItems = new ArrayList<RowItem>();
         try {
             bookDataStorageObject = new BookDataStorage(getContext());
-            // Checking the Internet Available or not
             bookDataStorageObject.open();
             Cursor cursor_contacts = bookDataStorageObject.getAllData();
             cursor_contacts.moveToFirst();
@@ -101,7 +100,7 @@ public class HistoryFragment extends Fragment {
                 cursor_contacts.moveToNext();
             }
 
-
+            cursor_contacts.close();
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -251,10 +250,9 @@ public class HistoryFragment extends Fragment {
 
                         bookDataStorageObjectNew.insert(BookDataStorage.DATABASE_MAIN_DATA, cv);
 
-
+                        rowItems = new ArrayList<RowItem>();
                         try {
                             bookDataStorageObject = new BookDataStorage(getContext());
-                            // Checking the Internet Available or not
                             bookDataStorageObject.open();
                             Cursor cursor_contacts = bookDataStorageObject.getAllData();
                             cursor_contacts.moveToFirst();
@@ -269,7 +267,8 @@ public class HistoryFragment extends Fragment {
                                 cursor_contacts.moveToNext();
                             }
 
-
+                            adapter = new CustomBaseAdapter(con, rowItems,isConnectingToInternet());
+                            listView.setAdapter(adapter);
                         } catch (Exception e) {
                             e.printStackTrace();
                         } finally {

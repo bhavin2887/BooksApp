@@ -6,7 +6,7 @@ android {
         applicationId "com.app.books.booksapp"
         minSdkVersion 15
         targetSdkVersion 26
-        versionCode 3
+        versionCode 4
         versionName "2.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
@@ -16,6 +16,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    aaptOptions {
+        cruncherEnabled = false
     }
 }
 

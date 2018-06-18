@@ -40,7 +40,7 @@
                     android:id="@+id/textView1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="► Simple to use, just scan the barcode of the book and watch the video."
+                    android:text="@string/slide_1_desc"
                     android:textSize="18dp"
                     android:textColor="@color/black" />
             </LinearLayout>
@@ -54,7 +54,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="► App Founded by: Cass Horowitz"
+                    android:text="@string/slide_2_desc"
                     android:textSize="18dp"
                     android:textColor="@color/black"  />
             </LinearLayout>
@@ -68,7 +68,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="► Any questions and feedback email cassforquestions@gmail.com"
+                    android:text="@string/slide_4_desc"
                     android:textSize="18dp"
                     android:textColor="@color/black"  />
             </LinearLayout>
@@ -82,7 +82,35 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="► Please support your local book shop and buy this book in store!"
+                    android:text="Please support your local book shop and buy this book in store!"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"  />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="App Founded by: Cass Horowitz"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"  />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Any questions and feedback email cassforquestions@gmail.com"
                     android:textSize="18dp"
                     android:textColor="@color/black"  />
             </LinearLayout>
